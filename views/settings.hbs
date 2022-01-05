@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="/css/settings.css">
+</head>
+<body>
+    <h1 class="pageName">Settings</h1>
+    <a href="/messenger">
+        <div class="imgBack">
+            <img class="imgAvBack" src="https://avatars.dicebear.com/api/gridy/9.svg">
+            <div class="backHide">Click to go Back</div>
+        </div>
+    </a>
+    <div class="settings">
+        <div class="divAvatar">
+            <h3>Choose avatar</h3>
+            <div class="avatars">
+                <img src="https://avatars.dicebear.com/api/open-peeps/1:seed.svg" id="avatar1" onclick="chooseAvatar('avatar1')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/3:seed.svg" id="avatar3" onclick="chooseAvatar('avatar3')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/41:seed.svg" id="avatar41" onclick="chooseAvatar('avatar41')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/4:seed.svg" id="avatar4" onclick="chooseAvatar('avatar4')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/5:seed.svg" id="avatar5" onclick="chooseAvatar('avatar5')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/6:seed.svg" id="avatar6" onclick="chooseAvatar('avatar6')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/7:seed.svg" id="avatar7" onclick="chooseAvatar('avatar7')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/13:seed.svg" id="avatar13" onclick="chooseAvatar('avatar13')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/14:seed.svg" id="avatar14" onclick="chooseAvatar('avatar14')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/15:seed.svg" id="avatar15" onclick="chooseAvatar('avatar15')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/16:seed.svg" id="avatar16" onclick="chooseAvatar('avatar16')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/17:seed.svg" id="avatar17" onclick="chooseAvatar('avatar17')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/18:seed.svg" id="avatar18" onclick="chooseAvatar('avatar18')">
+            </div>
+            <div class="avatars">
+                <img src="https://avatars.dicebear.com/api/open-peeps/21:seed.svg" id="avatar21" onclick="chooseAvatar('avatar21')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/23:seed.svg" id="avatar23" onclick="chooseAvatar('avatar23')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/24:seed.svg" id="avatar24" onclick="chooseAvatar('avatar24')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/25:seed.svg" id="avatar25" onclick="chooseAvatar('avatar25')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/26:seed.svg" id="avatar26" onclick="chooseAvatar('avatar26')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/27:seed.svg" id="avatar27" onclick="chooseAvatar('avatar27')">
+
+                <img src="https://avatars.dicebear.com/api/open-peeps/33:seed.svg" id="avatar33" onclick="chooseAvatar('avatar33')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/34:seed.svg" id="avatar34" onclick="chooseAvatar('avatar34')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/35:seed.svg" id="avatar35" onclick="chooseAvatar('avatar35')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/37:seed.svg" id="avatar37" onclick="chooseAvatar('avatar37')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/38:seed.svg" id="avatar38" onclick="chooseAvatar('avatar38')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/39:seed.svg" id="avatar39" onclick="chooseAvatar('avatar39')">
+                <img src="https://avatars.dicebear.com/api/open-peeps/40:seed.svg" id="avatar40" onclick="chooseAvatar('avatar40')">
+            </div>
+        </div>
+        <div>
+            <h3>Choose background image</h3>
+            <div class="backgroundImage">
+                <img class="img1" src="/images/img1.png"   onclick="chooseBackgroundImage('img1')">
+                <img class="img2" src="/images/img2.png"   onclick="chooseBackgroundImage('img2')">
+                <img class="img3" src="/images/img3.png"   onclick="chooseBackgroundImage('img3')">
+            </div>
+        </div>
+        <div>
+            <h3>Choose sound</h3>
+            <div class="soundDiv">
+
+                <div class="sound1">   
+                    <audio id="audio1" src="/sounds/excuse_me_boss.mp3"></audio>
+                    <a onclick="playSound('audio1')"><p id='aud1' onclick="colorSound('aud1')">1. Excuse me Boss</p></a><br/>
+
+                    <audio id="audio2" src="/sounds/faking_text_message.mp3"></audio>
+                    <a onclick="playSound('audio2')"><p id='aud2' onclick="colorSound('aud2')">2. Faking text message</p></a><br/>
+
+                    <audio id="audio3" src="/sounds/funny_sparta_sms.mp3"></audio>
+                    <a onclick="playSound('audio3')"><p id='aud3' onclick="colorSound('aud3')">3. Funny sparta sms</p></a><br/>
+
+                    <audio id="audio4" src="/sounds/funny_text.mp3"></audio>
+                    <a onclick="playSound('audio4')"><p id='aud4' onclick="colorSound('aud4')">4. Funny text</p></a><br/>
+                </div>
+
+                <div class="sound2">
+                    <audio id="audio5" src="/sounds/lulululu_lu_lu_lu.mp3"></audio>
+                    <a onclick="playSound('audio5')"><p id='aud5' onclick="colorSound('aud5')">5. Lululululu</p></a><br/>
+                
+                    <audio id="audio6" src="/sounds/text_message_spoken.mp3"></audio>
+                    <a onclick="playSound('audio6')"><p id='aud6' onclick="colorSound('aud6')">6. Text message spoken</p></a><br/>
+
+                    <audio id="audio7" src="/sounds/u_hav_a_text_message.mp3"></audio>
+                    <a onclick="playSound('audio7')"><p id='aud7' onclick="colorSound('aud7')">7. You have a message</p></a><br/>
+                
+                    <audio id="audio8" src="/sounds/you_got_a_message.mp3"></audio>
+                    <a onclick="playSound('audio8')"><p id='aud8' onclick="colorSound('aud8')">You got a message</p> </a><br/>
+                </div>
+
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="safeButton">Safe</button>
+            <button class="cancelButton" id="cancel">Cancel</button>
+        </div>
+    </div>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="/js/settings.js"></script>
+</body>
+</html>
+
+

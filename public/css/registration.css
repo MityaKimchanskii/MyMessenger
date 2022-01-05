@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: "Gill Sans";
+  color: #502064;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.registration {
+  display: grid;
+  place-items: center;
+  height: 300px;
+  width: 300px;
+  border: 1px solid #3fa796;
+  background-color: #ffbd35;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.firstName {
+  height: 25px;
+  width: 80%;
+  border-radius: 3px;
+  font-size: 13pt;
+  font-family: "Gill Sans";
+  color: #502064;
+}
+.lastName {
+  height: 25px;
+  width: 80%;
+  border-radius: 3px;
+  font-size: 13pt;
+  font-family: "Gill Sans";
+  color: #502064;
+}
+.email {
+  height: 25px;
+  width: 80%;
+  border-radius: 3px;
+  font-size: 13pt;
+  font-family: "Gill Sans";
+  color: #502064;
+}
+
+.password {
+  height: 25px;
+  width: 80%;
+  border-radius: 3px;
+  font-size: 13pt;
+  font-family: "Gill Sans";
+  color: #502064;
+}
+.registerButton {
+  height: 25px;
+  width: 60%;
+  border-radius: 3px;
+  background-color: #3fa796;
+  font-size: 11pt;
+  font-family: "Gill Sans";
+  color: #502064;
+  transition-duration: 0.4s;
+}
+.registerButton:hover {
+  background-color: #8267be;
+  color: white;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.imgDivLeft {
+  height: 100vw;
+  width: 200px;
+}
+.imgDivRight {
+  height: 100vw;
+  width: 200px;
+}
+.imgAvLeft {
+  margin-top: 150px;
+  height: 200px;
+  width: 200px;
+}
+.imgAvRight {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 200px;
+}
+
+.divReg {
+  display: flex;
+  justify-content: space-between;
+}
+.hideLeft {
+  display: none;
+
+  margin-left: 100px;
+  height: 80px;
+  width: 180px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  color: #502064;
+  font-size: 20pt;
+  font-family: "Gill Sans";
+}
+.hideRight {
+  display: none;
+  margin-top: 65vh;
+  height: 55px;
+  width: 180px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  color: #502064;
+  font-size: 15pt;
+  font-family: "Gill Sans";
+}
+.imgAvLeft:hover + .hideLeft {
+  display: block;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.imgAvRight:hover + .hideRight {
+  display: block;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.imgAvLeft:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.imgAvRight:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.imgAvBack {
+  height: 100px;
+  width: 100px;
+}
+.imgAvBack:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.backHide {
+  display: none;
+  height: 50px;
+  width: 80px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  color: #502064;
+  font-size: 15pt;
+  font-family: "Gill Sans";
+}
+.imgAvBack:hover + .backHide {
+  display: block;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}

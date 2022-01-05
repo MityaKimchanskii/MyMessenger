@@ -1,0 +1,66 @@
+  <div class="mainDiv">
+        <div class="topDiv">
+            <h1>Fanny Messenger</h1>
+        </div>
+
+        <div class="middleDiv">
+
+            <div class="leftMidDiv">
+
+                <div class="nameAndSearchDiv">
+
+                    <div class="leftMidDivTop"> 
+                        <img class="avatar" src="https://avatars.dicebear.com/api/adventurer-neutral/12345.svg">
+                        <h3 class="nameUser" id="user123">{{first}} {{last}}</h3>
+                       
+                        <div class="plus">
+                            <button class="plusButton"><h3>+</h3></button>
+    
+                        </div>
+                    </div>
+                    
+                    <div class="chats">
+                        <select id="rooms" size="2" class="scrollable" name="room">
+                            <option value="Dance" id="Dance">Dance</option>
+                            <option value="Party" id="Party">Party</option>
+                            {{!-- <option value="Beer" id="Beer">Beer</option>
+                            <option value="Music" id="Music">Music</option>
+                            <option value="Games" id="Games">Games</option>
+                            <option value="Films" id="Films">Films</option>
+                            <option value="Drinks" id="Drinks">Drinks</option> --}}
+                            <option value="Programming" id="Programming">Programming</option>
+                        </select>
+                    </div>
+
+                    <form id="chat-form">
+                        <div class="message">
+                            <textarea id="msg" class="messageTextAria" cols="30" rows="10" placeholder="Type message"></textarea>
+
+                        </div>
+                        <div class="sendMessage">
+                            <button class="sendButton">Send message ✉️</button>
+
+                        </div>
+                    </form>
+                    <div class="settings">
+                        <button class="settingsButton"><a href="/settings">Settings ⚙️</a></button>
+
+                    </div>
+
+                    <div class="logout">
+                        <button class="logoutButton"><a href="/">Logout 🚪</a></button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightMidDiv">
+                <h2 id="headerNameOfChat"></h2>
+                <div class="chat-messages">
+
+                </div>    
+                
+            </div>
+
+        </div>
+    </div>

@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+}
+
+.mainDiv {
+  justify-content: center;
+  height: 90vw;
+  width: 100vw;
+}
+.topDiv {
+  display: grid;
+  justify-content: center;
+  margin: 10px auto;
+  margin-top: 20px;
+  font-family: "Gill Sans";
+  color: #502064;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.chat-messages .message {
+  display: grid;
+  margin: 10px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  height: 45px;
+}
+.chat-messages .message .meta {
+  font-size: 12px;
+  color: #502064;
+  margin-bottom: 7px;
+}
+
+.chat-messages .message .meta span {
+  color: #502064;
+}
+
+.middleDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.leftMidDiv {
+  display: grid;
+  background-color: #ffbd35;
+  border: 1px solid #3fa796;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  width: 30%;
+  height: 100vmax;
+  border-radius: 10px;
+  color: #502064;
+  font-family: "Gill Sans";
+}
+.leftMidDivTop {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.rightMidDiv {
+  background-color: #3fa796;
+  border: 10x solid #ffbd35;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
+  width: 65%;
+  height: 100vmax;
+  border-radius: 10px;
+  overflow: auto;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+}
+textarea {
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  /* font-weight: bold; */
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #502064;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.nameUser {
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #502064;
+  font-family: "Gill Sans";
+}
+
+/* .serachText {
+  height: 24px;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  margin-left: 10px;
+} */
+.chats {
+  margin: 5px;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  display: flex;
+  height: 15vw;
+  border-radius: 10px;
+  font-weight: bold;
+}
+select {
+  font-size: 25px;
+  color: #502064;
+  font-family: "Gill Sans";
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.avatarChat {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #502064;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.nameChat {
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #502064;
+  font-family: "Gill Sans";
+  font-weight: bold;
+}
+
+/* .searchButton:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: #8267be;
+  color: white;
+} */
+.message {
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  height: 15vw;
+}
+.messageTextAria {
+  border-radius: 10px;
+  border: 1px solid #502064;
+  width: 100%;
+}
+.sendMessage {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+}
+.sendButton {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  background-color: #3fa796;
+}
+.sendButton:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: #8267be;
+  color: white;
+}
+.plusButton {
+  margin-top: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  background-color: #3fa796;
+  margin-right: 10px;
+}
+.plusButton:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: #8267be;
+  color: white;
+}
+.avatar:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.avatarChat:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.settingsButton {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  background-color: #3fa796;
+}
+.settingsButton:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: #8267be;
+  color: white;
+}
+.settings {
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+.logoutButton {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #502064;
+  font-family: "Gill Sans";
+  background-color: #3fa796;
+}
+.logoutButton:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: #8267be;
+  color: white;
+}
+.logout {
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+a:link {
+  color: #502064;
+}
+a:visited {
+  color: #502064;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+a:active {
+  color: #502064;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
