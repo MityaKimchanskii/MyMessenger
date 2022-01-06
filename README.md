@@ -54,7 +54,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Link video presentation
+https://drive.google.com/file/d/1xqp9UA_FFBLmbehOOTp8p43LRC-P2egP/view?usp=sharing
 
 ## License
 
