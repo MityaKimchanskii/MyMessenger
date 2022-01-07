@@ -1,0 +1,41 @@
+Planning
+* project includes a wireframe for each view  (4 lo, 2 hi)                           5
+* project includes a list of MVP features *                                          5
+* project includes a data model—---------------------------------------------------
+
+MVP
+* app has at least 3 main features *                                                 5
+* front end makes a request to the server and handles the response *                 5
+* front end is interactive *                                                         5
+* app has custom styling *                                                           5
+
+Front End
+* app has at least 5 semantic tags *                                                 5
+* app includes 1 view *                                                              5
+* app includes 1+ additional view(s) (5 views)                                       5
+* styling includes flexbox                                                           5
+* at least 1 view is responsive                                                      5
+* styling includes animations                                                        5
+
+Server
+* app includes a GET endpoint and handler function *                                 5
+* app includes a POST endpoint and handler function *                                5
+* app includes a PUT endpoint and handler function   --------------------------   
+* app includes a DELETE endpoint and handler function   --------------------
+* app utilizes Sequelize    —--------------------------------------------------------
+* project includes at least 1 controller file                                        5
+
+Database
+* project includes a seed file or function                                           5
+* app uses 1 table                                                                   5            
+* app uses 1+ additional tables                                                      5
+* app uses a foreign key and join ?                                                  5
+               In project I use MongoDB
+
+Presentation
+* discusses project purpose and demonstrates MVP  *                                  5
+* does not discuss broken/unimplemented features                                     5
+* recording is between 2-3 minutes                                                   5
+
+
+Total                                                                              ~ 110
